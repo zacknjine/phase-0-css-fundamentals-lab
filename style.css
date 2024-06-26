@@ -3,3 +3,73 @@ body {
   height: 100%;
   margin: 0;
 }
+header{
+  text-align: center;
+}
+img{
+  position: relative;
+  left:50% ;
+  transform: translateX(-50%);
+}
+
+nav {
+  display: flex;
+  justify-items: center;
+  margin-left: 280px;
+  background-color: grey;
+  margin-right:280px ;
+}
+
+nav a{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+figcaption{
+  font-size: small;
+  text-align: center;
+}
+
+#featured-property p{
+  
+  text-align: center;
+  
+  width: 800px;
+}
+
+#details{
+
+  float: left;
+
+}
+
+#featured-property{
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#featured-property p{
+  margin-left: 15px;
+
+
+}
+#details{
+  display: flex;
+  background-color: red;
+  width: 500%;
+
+
+  
+
+}
+#details div{
+  float: left;
+margin-right: 15px;
+padding-left: 100px;
+}
+
+
+
+
